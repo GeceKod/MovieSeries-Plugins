@@ -17,12 +17,12 @@
       "movieSelector": "div.movie",
       "titleSelector": "a",
       "urlSelector": "a[href]",
-      "posterSelector": "picture img[src]"
+      "posterSelector": "picture img[data-src]"
     }
   ],
   "details": {
     "titleSelector": "div.titles h1",
-    "posterSelector": "img.img-responsive[src]",
+    "posterSelector": "img.img-responsive[data-src]",
     "descriptionSelector": "p[itemprop='description']",
     "yearSelector": "span[itemprop='dateCreated']",
     "tagsSelector": "div.description a[href*='-kategori/']"
