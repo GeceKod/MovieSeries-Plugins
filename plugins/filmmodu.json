@@ -1,6 +1,6 @@
 {
   "name": "FilmModu",
-  "mainUrl": "https://www.filmmodu.nl/",
+  "mainUrl": "https://www.filmmodu.com",
   "supportedTypes": ["Movie", "Series"],
   "mainPage": [
     {
