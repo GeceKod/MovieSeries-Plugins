@@ -9,7 +9,7 @@
       "movieSelector": "div.movie",
       "titleSelector": "a",
       "urlSelector": "a[href]",
-      "posterSelector": "picture img[data-src]"
+      "posterSelector": "picture img[src]"
     },
     {
       "name": "Aksiyon",
@@ -17,12 +17,12 @@
       "movieSelector": "div.movie",
       "titleSelector": "a",
       "urlSelector": "a[href]",
-      "posterSelector": "picture img[data-src]"
+      "posterSelector": "picture img[src]"
     }
   ],
   "details": {
     "titleSelector": "div.titles h1",
-    "posterSelector": "img.img-responsive[data-src]",
+    "posterSelector": "img.img-responsive[src]",
     "descriptionSelector": "p[itemprop='description']",
     "yearSelector": "span[itemprop='dateCreated']",
     "tagsSelector": "div.description a[href*='-kategori/']"
