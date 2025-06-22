@@ -9,7 +9,7 @@
       "movieSelector": "div.movie",
       "titleSelector": "a",
       "urlSelector": "a[href]",
-      "posterSelector": "picture img[src]"
+      "posterSelector": "picture img[data-src]"
     },
     {
       "name": "Aksiyon",
