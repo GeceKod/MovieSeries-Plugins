@@ -1,11 +1,11 @@
 {
   "name": "FilmModu",
-  "mainUrl": "https://www.fullhdfilmizlesene.so",
+  "mainUrl": "https://www.filmmodu.nl",
   "supportedTypes": ["Movie", "Series"],
   "mainPage": [
     {
       "name": "Popüler Filmler",
-      "url": "/en-cok-izlenen-hd-filmler",
+      "url": "/hd-film-kategori/tavsiye-filmler",More actions
       "movieSelector": "div.movie",
       "titleSelector": "a",
       "urlSelector": "a[href]",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Aksiyon",
-      "url": "/filmizle/aksiyon-filmleri-hdf-izle",
+      "url": "/hd-film-kategori/aksiyon",
       "movieSelector": "div.movie",
       "titleSelector": "a",
       "urlSelector": "a[href]",
