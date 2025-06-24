@@ -1,30 +1,22 @@
 {
   "name": "FilmModu",
   "mainUrl": "https://www.filmmodu.nl",
-  "supportedTypes": ["Movie", "Series"],
+  "supportedTypes": ["movie"],
   "mainPage": [
     {
-      "name": "Popüler Filmler",
-      "url": "/hd-film-kategori/tavsiye-filmler",
-      "movieSelector": "div.movie",
-      "titleSelector": "a",
+      "name": "Filmler",
+      "url": "/movies",
+      "movieSelector": "div.movie-card",
+      "titleSelector": "h3.title",
       "urlSelector": "a[href]",
-      "posterSelector": "picture img[src]"
-    },
-    {
-      "name": "Aksiyon",
-      "url": "/hd-film-kategori/aksiyon",
-      "movieSelector": "div.movie",
-      "titleSelector": "a",
-      "urlSelector": "a[href]",
-      "posterSelector": "picture img[src]"
+      "posterSelector": "img.poster"
     }
   ],
   "details": {
-    "titleSelector": "div.titles h1",
-    "posterSelector": "img.img-responsive[src]",
-    "descriptionSelector": "p[itemprop='description']",
-    "yearSelector": "span[itemprop='dateCreated']",
-    "tagsSelector": "div.description a[href*='-kategori/']"
+    "titleSelector": "h1.title",
+    "posterSelector": "img.detail-poster",
+    "descriptionSelector": "p.description",
+    "yearSelector": "span.year",
+    "tagsSelector": "span.tag"
   }
 }
