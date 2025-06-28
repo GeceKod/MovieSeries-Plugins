@@ -1,0 +1,8 @@
+{
+  "name": "FilmModu",
+  "mainUrl": "https://www.filmmodu.nl",
+  "supportedTypes": ["Movie", "Series"],
+  "mainPage": [
+  
+  }
+}
